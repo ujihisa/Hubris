@@ -1,0 +1,1474 @@
+$ rake192 spec
+(in /Users/ujihisa/git/Hubris)
+mkdir: /Users/ujihisa/.hubris_cache: File exists
+find: /Users/ujihisa/.gem/ruby/1.9/bin: No such file or directory
+find: /Users/ujihisa/.gem/ruby/1.9/bin: No such file or directory
+find: /Users/ujihisa/Documents/uvn/repos_ruby/said/trunk: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/bin: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/tools: No such file or directory
+find: /Users/ujihisa/bin/scala-2.6.0-final/: No such file or directory
+find: /Users/ujihisa/Documents/uvn/repos_ruby/said/trunk: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/bin: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/tools: No such file or directory
+find: /Users/ujihisa/bin/scala-2.6.0-final/: No such file or directory
+mkdir: /Users/ujihisa/.hubris_cache: File exists
+find: /Users/ujihisa/.gem/ruby/1.9/bin: No such file or directory
+find: /Users/ujihisa/.gem/ruby/1.9/bin: No such file or directory
+find: /Users/ujihisa/Documents/uvn/repos_ruby/said/trunk: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/bin: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/tools: No such file or directory
+find: /Users/ujihisa/bin/scala-2.6.0-final/: No such file or directory
+find: /Users/ujihisa/Documents/uvn/repos_ruby/said/trunk: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/bin: No such file or directory
+find: /Users/ujihisa/Documents/rrm/bitclust/tools: No such file or directory
+find: /Users/ujihisa/bin/scala-2.6.0-final/: No such file or directory
+..FFFFFFFFFF**FF.F
+
+Pending:
+
+Target can overwrite old functions (Haven't decided proper semantics)
+spec/hubris_spec.rb:158:in `block in <top (required)>'
+
+Target can insert the same code into two ruby modules (rejig identifiers to include module in stubs)
+spec/hubris_spec.rb:172:in `block in <top (required)>'
+
+1)
+'Target sings like a golden bird when you treat it right, aw yeah' FAILED
+expected no Exception, got #<HaskellError: ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/working_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libworking_266e262055362889fa95d8e269c0d441.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/working_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/working_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0/ghc3073_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3073_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+working :: RValue -> RValue
+working_external :: Value -> Value -> Value
+working_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ working $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "working_external" working_external :: Value -> Value -> Value
+
+working _ = T_FIXNUM (1+2)>
+spec/hubris_spec.rb:36:in `block (2 levels) in <top (required)>'
+
+2)
+HaskellError in 'Target handles booleans'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/my_negate_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libmy_negate_eeef6c1a446d73f19e537b6cba509846.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -Werror 
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/my_negate_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/my_negate_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0/ghc3091_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3091_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+my_negate :: RValue -> RValue
+my_negate_external :: Value -> Value -> Value
+my_negate_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ my_negate $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "my_negate_external" my_negate_external :: Value -> Value -> Value
+
+my_negate T_FALSE = T_TRUE
+my_negate T_NIL = T_TRUE
+my_negate _ = T_FALSE 
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:42:in `block (2 levels) in <top (required)>'
+
+3)
+HaskellError in 'Target handles doubles'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/triple_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libtriple_9de70fae887197e4805392b942290777.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/triple_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/triple_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0/ghc3109_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3109_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+triple :: RValue -> RValue
+triple_external :: Value -> Value -> Value
+triple_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ triple $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "triple_external" triple_external :: Value -> Value -> Value
+
+triple (T_FLOAT a) = T_FLOAT (a*3.0)
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:56:in `block (2 levels) in <top (required)>'
+
+4)
+HaskellError in 'Target handles nils too'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/give_me_a_nil_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libgive_me_a_nil_07b7b03086f7bcc345cd1cf4ab640285.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/give_me_a_nil_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/give_me_a_nil_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0/ghc3127_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3127_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+give_me_a_nil :: RValue -> RValue
+give_me_a_nil_external :: Value -> Value -> Value
+give_me_a_nil_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ give_me_a_nil $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "give_me_a_nil_external" give_me_a_nil_external :: Value -> Value -> Value
+
+give_me_a_nil _ = T_NIL
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:63:in `block (2 levels) in <top (required)>'
+
+5)
+HaskellError in 'Target handles strings'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/my_reverse_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libmy_reverse_8d50f73a603eb91f63d56d4a415adc32.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/my_reverse_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/my_reverse_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0/ghc3145_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3145_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+my_reverse :: RValue -> RValue
+my_reverse_external :: Value -> Value -> Value
+my_reverse_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ my_reverse $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "my_reverse_external" my_reverse_external :: Value -> Value -> Value
+
+my_reverse (T_STRING s) = T_STRING $ Prelude.reverse s
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:69:in `block (2 levels) in <top (required)>'
+
+6)
+HaskellError in 'Target handles BigInts'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/big_inc_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libbig_inc_e941ff7a2d840cd6d72b5d9a36fbcec8.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -Werror 
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/big_inc_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/big_inc_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0/ghc3163_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3163_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+big_inc :: RValue -> RValue
+big_inc_external :: Value -> Value -> Value
+big_inc_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ big_inc $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "big_inc_external" big_inc_external :: Value -> Value -> Value
+
+big_inc (T_BIGNUM i) = T_BIGNUM $ i + 1
+big_inc _ = T_NIL
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:75:in `block (2 levels) in <top (required)>'
+
+7)
+HaskellError in 'Target doubles an int in Haskell-land'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/mydouble_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libmydouble_80de6a0ddda6b8ba1f454a9e38867916.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/mydouble_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/mydouble_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0/ghc3181_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3181_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+mydouble :: RValue -> RValue
+mydouble_external :: Value -> Value -> Value
+mydouble_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ mydouble $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "mydouble_external" mydouble_external :: Value -> Value -> Value
+
+mydouble (T_FIXNUM i) = T_FIXNUM (i + i)
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:84:in `block (2 levels) in <top (required)>'
+
+8)
+HaskellError in 'Target can use arrays sensibly'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/mysum_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libmysum_a5e4fc786ed3bd748208fa7bdd3b58e0.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/mysum_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/mysum_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0/ghc3199_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3199_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+mysum :: RValue -> RValue
+mysum_external :: Value -> Value -> Value
+mysum_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ mysum $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "mysum_external" mysum_external :: Value -> Value -> Value
+
+mysum (T_ARRAY r) = T_FIXNUM  $ sum $ map project r 
+  where project (T_FIXNUM l) = l
+        project _ = 0
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:98:in `block (2 levels) in <top (required)>'
+
+9)
+HaskellError in 'Target returns a haskell list as  an array'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/elts_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libelts_9305aea75a9c13061e47aaf28f6f6155.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -Werror 
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/elts_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/elts_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0/ghc3217_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3217_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+elts :: RValue -> RValue
+elts_external :: Value -> Value -> Value
+elts_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ elts $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "elts_external" elts_external :: Value -> Value -> Value
+
+elts (T_FIXNUM i) = T_ARRAY $ map T_FIXNUM $ take i [1..]
+elts _ = T_NIL
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:109:in `block (2 levels) in <top (required)>'
+
+10)
+HaskellError in 'Target can be called in a block'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foo_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libfoo_4df38cb687f4dd9700be9f4bea6b63e2.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foo_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foo_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0/ghc3235_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3235_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+foo :: RValue -> RValue
+foo_external :: Value -> Value -> Value
+foo_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ foo $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "foo_external" foo_external :: Value -> Value -> Value
+
+foo (T_FIXNUM i) = T_FIXNUM (-i)
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:142:in `block (2 levels) in <top (required)>'
+
+11)
+HaskellError in 'Target throws an exception on partial match'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foo2_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libfoo2_5b2b42b03dfa89a2f2318dd5509c6358.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foo2_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foo2_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0/ghc3253_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3253_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+foo2 :: RValue -> RValue
+foo2_external :: Value -> Value -> Value
+foo2_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ foo2 $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "foo2_external" foo2_external :: Value -> Value -> Value
+
+foo2 T_NIL = T_TRUE
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:186:in `block (2 levels) in <top (required)>'
+
+12)
+HaskellError in 'Target caches its output'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foobar_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libfoobar_b351b277721569a7868d9617ecfa0d83.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -Werror 
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foobar_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/foobar_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0/ghc3271_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3271_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+foobar :: RValue -> RValue
+foobar_external :: Value -> Value -> Value
+foobar_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ foobar $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "foobar_external" foobar_external :: Value -> Value -> Value
+
+foobar _ = T_STRING "rar rar rar"
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:193:in `block (2 levels) in <top (required)>'
+
+13)
+HaskellError in 'Target doesn't affect other modules'
+ghc build failed /Users/ujihisa/local/bin/ghc-6.11.20090913 -Wall -v  --make -dynamic -fPIC -shared /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/fun_source.hs -lHSrts-ghc6.11.20090913 -L/usr/local/lib/ghc-6.11.20090913 -no-hs-main -optl-Wl,-rpath,/usr/local/lib/ghc-6.11.20090913 -o /Users/ujihisa/.hubris_cache/libfun_a0cf691d97a4ec600cea472ce8d12288.bundle stubs.c ./lib/rshim.c ./lib/RubyMap.hs -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -Werror 
+output: 
+error:  Glasgow Haskell Compiler, Version 6.11.20090913, for Haskell 98, stage 2 booted by GHC version 6.10.3
+Using binary package database: /Users/ujihisa/local/lib/ghc-6.11.20090913/package.conf.d/package.cache
+hiding package base-3.0.3.0 to avoid conflict with later version base-4.2.0.0
+wired-in package ghc-prim mapped to ghc-prim-0.1.0.0-5181cc6e1dfc72ec0f56c0f9f8eb5c95
+wired-in package integer-gmp mapped to integer-gmp-0.1.0.0-fa82a0df93dc30b4a7c5654dd7c68cf4
+wired-in package base mapped to base-4.2.0.0-2605470460ccda3ad02b65c4d6c93fe4
+wired-in package rts mapped to builtin:rts
+wired-in package haskell98 mapped to haskell98-1.0.1.0-9e1bbdf3c9f1e95d4abd5497c0cfffcc
+wired-in package template-haskell mapped to template-haskell-2.4.0.0-b5ce51de621ea5c3dadc9604454f524a
+wired-in package dph-seq mapped to dph-seq-0.4.0-fcefaaf71eac22daed53e66f4189b5c6
+wired-in package dph-par mapped to dph-par-0.4.0-1e8bc0f5fb352b3a888ed98013a4d54a
+Hsc static flags: -fPIC
+Created temporary directory: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0
+*** C Compiler:
+gcc -x c stubs.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_0.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC stubs.c -fPIC -quiet -dumpbase stubs.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_0.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_0.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_0.s -o stubs.o
+*** C Compiler:
+gcc -x c lib/rshim.c -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_1.s -fno-common -U __PIC__ -D__PIC__ -march=i686 -v -S -Wimplicit -O -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+Using built-in specs.
+Target: i686-apple-darwin9
+Configured with: /var/tmp/gcc/gcc-5484~1/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9
+Thread model: posix
+gcc version 4.0.1 (Apple Inc. build 5484)
+ /usr/libexec/gcc/i686-apple-darwin9/4.0.1/cc1 -quiet -v -I /Users/ujihisa/rubies/include/ruby-1.9.1 -I ./lib -I /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include -I /Users/ujihisa/local/lib/ghc-6.11.20090913/include -D__DYNAMIC__ -U __PIC__ -D__PIC__ -D__GLASGOW_HASKELL__=611 -DTABLES_NEXT_TO_CODE -DDYNAMIC lib/rshim.c -fPIC -quiet -dumpbase rshim.c -mmacosx-version-min=10.5.8 -march=i686 -auxbase-strip /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_1.s -O -Wimplicit -version -fno-common -o /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_1.s
+ignoring nonexistent directory "/usr/lib/gcc/i686-apple-darwin9/4.0.1/../../../../i686-apple-darwin9/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ujihisa/rubies/include/ruby-1.9.1
+ ./lib
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/include
+ /Users/ujihisa/local/lib/ghc-6.11.20090913/include
+ /usr/local/include
+ /usr/lib/gcc/i686-apple-darwin9/4.0.1/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+GNU C version 4.0.1 (Apple Inc. build 5484) (i686-apple-darwin9)
+	compiled by GNU C version 4.0.1 (Apple Inc. build 5484).
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 493934a1662bc75ab2515dc75b128769
+*** Assembler:
+gcc -I/Users/ujihisa/rubies/include/ruby-1.9.1 -I./lib -c /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_1.s -o lib/rshim.o
+*** Chasing dependencies:
+Chasing modules from: */var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/fun_source.hs,*lib/RubyMap.hs
+
+/var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-/fun_source.hs:7:7:
+    Could not find module `Foreign':
+      Perhaps you haven't installed the "dyn" libraries for package `base'?
+      locations searched:
+        Foreign.hs
+        Foreign.lhs
+        /Users/ujihisa/local/lib/ghc-6.11.20090913/base-4.2.0.0/Foreign.dyn_hi
+*** Deleting temp files:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_1.s /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0/ghc3307_0.s
+*** Deleting temp dirs:
+Deleting: /var/folders/Dz/Dz5WpFSZGUaFLA8jp8kT5E+++TM/-Tmp-//ghc3307_0
+
+-- COMPILED WITH ghc
+{-# LANGUAGE ScopedTypeVariables, FlexibleInstances, ForeignFunctionInterface, UndecidableInstances #-}
+-- import Foreign.Ptr()
+import RubyMap
+import Prelude hiding (catch)
+import Control.Exception(SomeException, evaluate, catch)
+import Foreign(unsafePerformIO)
+main :: IO ()
+main = return ()
+
+fun :: RValue -> RValue
+fun_external :: Value -> Value -> Value
+fun_external _mod x = unsafePerformIO $
+  (evaluate (toRuby $ fun $ fromRuby x))
+     `catch` (\y -> throwException (show (y::SomeException)))
+foreign export ccall "fun_external" fun_external :: Value -> Value -> Value
+
+fun _ = T_NIL
+/Users/ujihisa/git/Hubris/lib/hubris.rb:205:in `ghcbuild'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:136:in `block in inline'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `call'
+/Users/ujihisa/git/Hubris/lib/hubris.rb:176:in `inline'
+spec/hubris_spec.rb:212:in `block (2 levels) in <top (required)>'
+
+Finished in 7.897568 seconds
+
+18 examples, 13 failures, 2 pending
+rake aborted!
+Command /Users/ujihisa/rubies/bin/ruby192 -I"spec:lib"  "/Users/ujihisa/rubies/lib/ruby/gems/1.9.1/gems/rspec-1.2.6/bin/spec" "spec/hubris_spec.rb"  failed
+
+(See full trace by running task with --trace)
+
